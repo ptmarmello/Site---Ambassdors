@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "EMBA",
+  "name": "EMBA Brasil",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,28 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "../src/assets/logo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "277x80"
     },
     {
-      "src": "logo512.png",
+      "src": "../src/assets/Mesadetrabajo1.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "500x510"
+    },
+    {
+      "src": "../src/assets/chao.png",
+      "type": "image/png",
+      "sizes": "610x610"
+    },
+    {
+      "src": "../src/assets/imagem.png",
+      "type": "image/png",
+      "sizes": "610x610"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#f0f0f5"
 }

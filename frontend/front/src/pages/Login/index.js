@@ -18,10 +18,11 @@ export default function Login(){
                         <h1>Faça seu Login</h1>
                         <input placeholder="Sua ID"/>
                         <button className="button" type="submit">Entrar!</button>
-                        <Link to="/register" className="link">
+                        <Link to="/register" className="link-direct">
                             <FiLogIn size={16} color="#073763"/>
                             Não tenho cadastro!
                             </Link>
+                            
                     </form>
                 </section>
                 <img style={{width:500}} className="HeroesSome" src={heroesImg} alt="AmbassDoors"/>

@@ -35,14 +35,14 @@ export default function about(){
                 
                 <div className="calltoAction">
                     <section>
-                        <Link to="/register" className="link">
+                        <Link to="/register" className="link-direct">
                                 {/* <FiLogIn size={16} color="#073763"/> */}
                                 Quero ser um Embaixador!
                                 </Link>
                     </section>
 
                     <section>
-                        <Link to="#" className="link">
+                        <Link to="#" className="link-direct">
                                 Quero divulgar minha Empresa ou Iniciativa social!
                                 </Link>
                     </section>

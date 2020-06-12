@@ -15,14 +15,14 @@ export default function signup(){
     }
     return(
         <div className="register-container">
-            <div className="content">
+            <div className="contain">
                 <section>
                     <img src={logoImg} className="logo" alt="Welcome. We've been expecting you"/>
                     <h1>Cadastro</h1>
                     <p>Estamos procurando pessoas que se envolvam, sejam dedicadas e tenham o espírito de mudança assim como a gente!
                         Se deseja saber mais sobre nossa visão e sobre nosso espírito de mudança: <Link className="aboutme-link" to="/">Veja aqui!</Link></p>
 
-                    <Link className="link" to="/">
+                    <Link className="link-direct" to="/">
                         <FiArrowLeft size={16} color="#073763"/>
                         Voltar a página inicial
                     </Link>

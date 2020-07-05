@@ -21,13 +21,16 @@ export default function about(){
             </div>
             <div className="separador"></div>
             <div className="content">
-                <section>
+                <section className="mobileVoff">
                     <img src={connect} className="ImgRecap" alt="Rede"/>
                 </section>
                 <section>
                     <h1>Nosso Programa</h1>
                     <p>Queremos criar uma rede que conecta pessoas de diferentes lugares com o objetivo comum de participarem da geração de transformações sociais e multiplicar boas notícias. Criando um sistema de confiabilidade e responsabilidade social, envolvendo projetos (sociais) e empresas. Além de engajarem como Influenciadores sociais, adquirindo assim vantagens ao longo do tempo de acordo com seus níveis.
 <p>Ou seja, não importa se é dentro da sua empresa, do seu departamento, da sua comunidade, da sua cidade, ou dentro da sua cabeça. Se você se sente engajado para uma melhora social... aqui é o seu lugar.</p></p>
+                </section>
+                <section className="mobileVOn">
+                    <img src={connect} className="ImgRecap" alt="Rede"/>
                 </section>
             </div>
             <div className="separador"></div>

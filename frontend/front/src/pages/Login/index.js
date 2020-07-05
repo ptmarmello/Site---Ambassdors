@@ -12,12 +12,13 @@ export default function Login(){
         <div className="container">
             <div className="logon-container">
                 <section className="form">
-                    <img src={logoImg} className="logo" alt="It's time to change the World"/>
+                    <img src={logoImg} className="logoEmba" alt="It's time to change the World"/>
                     <img className="ImgSome" src={heroesImg} alt="AmbassDoors"/>
                     <form>
                         <h1>Faça seu Login</h1>
                         <input placeholder="Sua ID"/>
-                        <button className="button" type="submit">Entrar!</button>
+                        {/* <button className="button" type="submit">Entrar!</button> */}
+                        <Link className="button" to="/voting">Entrar!</Link>
                         <Link to="/register" className="link-direct">
                             <FiLogIn size={16} color="#073763"/>
                             Não tenho cadastro!

@@ -44,6 +44,9 @@
     .HeroesSome{
         display: none;
     }
+    .logoEmba{
+        margin-left: 20px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -122,7 +125,7 @@
         padding-bottom: 3%;
         float: left;
     }
-    .logo{
+    .logoEmba{
         margin-left: 3em;
     }
     .logon-container section.form form h1{

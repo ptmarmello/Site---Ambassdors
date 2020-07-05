@@ -5,7 +5,7 @@ import "./styles.css";
 
 import logoImg from '../../assets/logo.png';
 
-export default function signup(){
+export default function newprod(){
     
     
     async function redirectfunction(e){
@@ -18,28 +18,25 @@ export default function signup(){
             <div className="contain">
                 <section>
                     <img src={logoImg} className="logo" alt="Welcome. We've been expecting you"/>
-                    <h1>Cadastro</h1>
-                    <p>Estamos procurando pessoas que se envolvam, sejam dedicadas e tenham o espírito de mudança assim como a gente!
-                        Se deseja saber mais sobre nossa visão e sobre nosso espírito de mudança: <Link className="aboutme-link" to="/">Veja aqui!</Link></p>
+                    <h1>Novo Produto</h1>
+                    <p>Todos precisam de ajuda, e nós queremos ajudar! Descreva aqui o projeto ou programa para que nossos embaixadores e empresas afiliadas possam ajudar!</p>
 
-                    <Link className="link-direct" to="/">
+                    <Link className="link-direct" to="/voting">
                         <FiArrowLeft size={16} color="#073763"/>
-                        Voltar a página inicial
+                        Voltar!
                     </Link>
                 </section>
                 <form onSubmit={redirectfunction} id="SignupForm" >
-                    <input placeholder="Nome" type="text"/>
-                    <input placeholder="E-mail" type="email"/>
-                    <input placeholder="Senha" type="password"/>
+                    <input placeholder="Nome do Projeto" type="text"/>
+                    <input placeholder="Número de participantes" type="number"/>
                     <div className="input-group">
                         <input placeholder="Cidade" type="text"/>
                         <input placeholder="UF" style={ { width:80} }/>
                     </div>
                     
-                    <textarea placeholder="Por quê ser um embaixador?" name="reason" form="SignupForm"></textarea>
+                    <textarea placeholder="Descrição" name="reason" form="SignupForm"></textarea>
 
-                    {/* <button className="button" type="submit">Cadastrar.</button> */}
-                    <Link className="button" to="/voting">Cadastrar.</Link>
+                    <button className="button" type="submit">Cadastrar.</button>
                     
                     
                 </form>
